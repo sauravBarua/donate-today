@@ -1,5 +1,117 @@
-body{
-    background-image: url("images/donation10.jpg");
-    background-repeat: no-repeat;
-    background-size: 1900px 900px;
+* {
+  margin: 0;
+}
+#image {
+  /* background-image:  url("images/donation10.jpg"); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(12, 4, 10, 0.73)
+    ),
+    url("images/donation10.jpg");
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+}
+.title {
+  color: white;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 26px;
+}
+.title p {
+  text-align: center;
+}
+.button__donate {
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.donate {
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 150px;
+}
+.donate h1 {
+  font-size: 50px;
+}
+.donate p {
+  font-size: 26px;
+}
+.tk {
+  background-color: rgba(204, 185, 185, 0.952);
+  padding: 50px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 16px;
+}
+.container__tk {
+  margin-top: 100px;
+  text-align: center;
+}
+.container__amount__tk {
+  text-align: center;
+  margin: 100px;
+}
+.container__amount__tk input {
+  text-align: center;
+}
+.donate__plan__text {
+  text-align: center;
+}
+.donate__plan__text h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.donate__plan__text p {
+  font-size: 26px;
+}
+.donate__plan__carte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donate__plan__food {
+  height: 350px;
+  width: 350px;
+  background-color: teal;
+  padding: 30px;
+  margin: 15px;
+}
+.updates {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.subscribe {
+  height: 150px;
+  width: 700px;
+  background-color: wheat;
+  margin: auto;
+  width: 50%;
+  position: relative;
+}
+.subscribe__input {
+  margin: auto;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.footer{
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+.footer h1{
+    color: salmon;
+}
+.footer p{
+    color: white;
 }
