@@ -150,14 +150,12 @@ body {
   padding: 70px;
 }
 .subscribe__input__button input {
-  height: 45px;
-  width: 300px;
   background-color: rgb(168, 163, 163);
   border: none;
+  padding: 16px 40px;
 }
 .subscribe__input__button button {
-  height: 45px;
-  width: 200px;
+  padding: 16px 40px;
   background-color: salmon;
   color: white;
   border: none;
