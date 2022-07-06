@@ -78,18 +78,35 @@
 .donate__plan__text p {
   font-size: 26px;
 }
-.donate__plan__carte {
+.donate__plan__cartes {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.donate__plan__food {
+.donate__plan__carte {
   height: 350px;
   width: 350px;
-  background-color: teal;
   padding: 30px;
   margin: 15px;
 }
+.donate__plan__carte img {
+    margin-top: 30px;
+  }
+.donate__plan__carte h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+.food{
+    background-color: rgba(49, 66, 66, 0.219);
+}
+
+.shelter{
+    background-color: rgba(94, 50, 88, 0.219);
+}
+.Frame-1{
+    background-color: rgba(163, 170, 101, 0.219);
+}
+
 .updates {
   text-align: center;
   margin-bottom: 16px;
