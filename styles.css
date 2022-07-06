@@ -44,12 +44,18 @@
   font-size: 26px;
 }
 .tk {
-  background-color: rgba(204, 185, 185, 0.952);
-  padding: 50px;
+  background-color: rgba(231, 225, 225, 0.137);
+  padding: 35px;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
   margin: 16px;
+  border-radius: 5px;
+}
+.tk__200{
+    background-color: rgba(214, 148, 141, 0.164);
+    color: salmon;
+    border: 2px solid salmon;
 }
 .container__tk {
   margin-top: 100px;
