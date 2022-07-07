@@ -26,11 +26,13 @@ body {
 }
 .title p {
   text-align: center;
+  font-size: 24px;
   margin-bottom: 32px;
 }
 .button__donate {
   background-color: salmon;
   color: white;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   padding: 15px 32px;
@@ -48,7 +50,7 @@ body {
   margin-bottom: 40px;
 }
 .donate p {
-  font-size: 26px;
+  font-size: 24px;
   margin-bottom: 40px;
 }
 .tk {
@@ -79,7 +81,7 @@ body {
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  border-bottom-style: rgba(128, 128, 128, 0.24);
+  border-bottom-style: rgba(231, 226, 226, 0.986);
   font-size: 16px;
 }
 .container__amount__tk button {
@@ -93,7 +95,7 @@ body {
   margin-bottom: 40px;
 }
 .donate__plan__text p {
-  font-size: 26px;
+  font-size: 24px;
   margin-bottom: 40px;
 }
 .donate__plan__cartes {
@@ -124,7 +126,31 @@ body {
 .Frame-1 {
   background-color: rgba(163, 170, 101, 0.219);
 }
-
+.container__poems{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+.poems{
+  padding: 40px;
+}
+.poems pre{
+  font-size: 20px;
+  padding: 20px;
+}
+.poems h1{
+  padding: 20px;
+  
+}
+.poems button{
+  padding: 16px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  margin-left: 230px;
+  font-size: 16px;
+}
 .my__updates {
   text-align: center;
   margin-top: 50px;
@@ -138,7 +164,7 @@ body {
 .subscribe {
   height: 200px;
   width: 700px;
-  background-color: wheat;
+  background-color: rgba(233, 200, 139, 0.726);
   margin: auto;
   width: 50%;
   margin-bottom: 100px;
@@ -150,7 +176,7 @@ body {
   padding: 70px;
 }
 .subscribe__input__button input {
-  background-color: rgb(168, 163, 163);
+  background-color: rgba(168, 163, 163, 0.603);
   border: none;
   padding: 16px 40px;
 }
@@ -168,6 +194,7 @@ body {
   text-align: center;
 }
 .footer h1 {
+  font-family: "Lobster Two", sans-serif;
   color: salmon;
   padding: 40px;
 }
